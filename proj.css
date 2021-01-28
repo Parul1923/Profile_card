@@ -53,10 +53,16 @@ section {
 }
 .lo {
     font-size: 10px;
+   
 }
 .f {
     display:inline-block;
     font-size: 10px;
+
+}
+.rule{
+margin-top:13px;
+  margin-bottom:13px;
 }
 .l {
     display:inline-block;
