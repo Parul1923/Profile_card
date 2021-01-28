@@ -22,7 +22,10 @@ background-repeat: no-repeat;
     height:50px;
 }
 .ab{
+    display: inline-block;
+    margin-right: 5px;
     font-weight: 700;
+    margin-bottom: 2px;
 }
 .content h2{
     font-size: 18px;
@@ -61,14 +64,17 @@ section {
 
 }
 .rule{
-margin-top:13px;
-  margin-bottom:13px;
+margin-top:25px;
+  margin-bottom:25px;
 }
 .l {
     display:inline-block;
     padding-left: 50px;
     padding-right:50px;
     font-size: 10px;
+}
+.m{
+    margin-top: 0px;
 }
 .p {
     display:inline-block;
