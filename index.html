@@ -3,8 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="proj.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Profile card component</title>
 
@@ -15,21 +17,35 @@
   </style>
 </head>
 <body>
-  Victor Crest
-  26
-  London
+  <section>
+    <div class="content">
 
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
+    <img class="card" src="./images/bg-pattern-card.svg">
+    <div class="pro">
+    <img class="profile" src="./images/image-victor.jpg" alt="Profile-photo" style="top:90px; left:130px;">
+     </div>
+    <div>
+    <h2><span class="ab">Victor Crest</span> 26</h2>
+    <p class="lo">London</p>
+    </div>
+    <hr>
+    <div class="f">
+        <h2 class="ab">80K</h2>
+        <p>Followers</p>
+    </div>
+    <div class="l">
+        <h2 class="ab">803K</h2>
+         <p>Likes</p>
+    </div>
+    <div class="p">
+        <h2 class="ab">1.4K</h2>
+         <p>Photos</p>
+        </div>        
+      </div>
+  </section>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/Parul1923">Parul Gupta</a>.
   </div>
 </body>
 </html>

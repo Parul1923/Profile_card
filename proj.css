@@ -1,0 +1,78 @@
+body {
+    
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    height: 100vh;
+    width: 100vw;
+    background-image:url(./images/bg-pattern-top.svg),url(./images/bg-pattern-bottom.svg);
+background-position: right 50vw bottom 50vw,
+    left 50vw top 50vw;
+background-repeat: no-repeat;
+    background-color: hsl(185, 75%, 39%);
+}
+.profile
+{
+    border:5px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    position:absolute;
+    background-position: top left;
+}
+.pro{
+    height:50px;
+}
+.ab{
+    font-weight: 700;
+}
+.content h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+.content p{
+    color: #6b7082;
+}
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card {
+    border:none;
+    border-top: 1px;
+    border-bottom:none;
+    border-radius: 15px 15px 0% 0%;
+}
+.content{
+    position:relative;
+    border-radius:15px;
+    width:350px;
+    margin-left: auto;
+    text-align:center;
+    background-color: white;
+}
+.lo {
+    font-size: 10px;
+}
+.f {
+    display:inline-block;
+    font-size: 10px;
+}
+.l {
+    display:inline-block;
+    padding-left: 50px;
+    padding-right:50px;
+    font-size: 10px;
+}
+.p {
+    display:inline-block;
+    font-size: 10px;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    justify-self: flex-end;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
