@@ -5,8 +5,8 @@ body {
     height: 100vh;
     width: 100vw;
     background-image:url(./images/bg-pattern-top.svg),url(./images/bg-pattern-bottom.svg);
-background-position: right 550px bottom 350px,
-    left 550px top 350px;
+background-position: right 50vw bottom 50vh,
+    left 50vw top 50vh;
 background-repeat: no-repeat;
     background-color: hsl(185, 75%, 39%);
 }
@@ -34,7 +34,7 @@ background-repeat: no-repeat;
 .content p{
     color: #6b7082;
 }
-section {
+section{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -65,7 +65,7 @@ section {
 }
 .rule{
 margin-top:25px;
-  margin-bottom:25px;
+margin-bottom:10px;
 }
 .l {
     display:inline-block;
